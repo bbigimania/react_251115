@@ -14,3 +14,14 @@ for (let i = 0; i < fruits.length; i++) {
 console.log(fruits.length);
 
 // forof
+fruits.push("수박");
+
+for (let n of fruits) {
+  console.log(n);
+}
+
+let p = fruits.pop();
+console.log(p);
+
+console.log(fruits.includes("사과"));
+console.log(fruits.indexOf("사과"));

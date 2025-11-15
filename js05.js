@@ -29,3 +29,29 @@ let plus1 = (a, b) => {
 };
 
 console.log(plus1(5, 2));
+
+//callback 함수
+function main(value) {
+  //console.log("Value is: " + value);
+  value();
+}
+
+//main(42);
+//main("Hello, World!");
+
+function sub() {
+  console.log("Sub function called");
+}
+sub();
+
+main(sub);
+main(function sub() {
+  console.log("Sub function called");
+});
+
+main(function () {
+  console.log("Sub function called");
+});
+main(() => {
+  console.log("Sub function called");
+});
