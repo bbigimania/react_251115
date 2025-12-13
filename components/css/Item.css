@@ -1,0 +1,22 @@
+.Item{
+  display: flex;
+  align-items: center;
+  gap:20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+/* 체크박스 */
+.checkbox_col{  width: 20px; }
+/* 제목 */
+.title_col{  flex : 1; }
+/* 날짜 */
+.date_col{ font-size: 14px; color : gray;}
+/* 삭제 버튼 */
+.btn_col{
+  cursor: pointer; /* 마우스 포인터 손모양 */
+  color: gray;
+  border:none;
+  font-size:14px;
+  border-radius: 5px;
+  padding:5px;
+}
